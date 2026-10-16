@@ -504,7 +504,10 @@ footer {
   }
   .testi-card {
   width: 100%;
-}
+  }
+  .section .price-grid .price-card {
+    width: 47%;
+  }
 }
 
 @media (max-width: 640px) {
@@ -518,7 +521,7 @@ footer {
     padding: 20px 32px;
     gap: 18px;
     border-bottom: 1px solid #C7CFC9;
-    display: none; /* sembunyi dulu, ditampilkan JS lewat class "open" */
+    display: none; 
   }
   nav.open {
     display: flex;
@@ -540,6 +543,21 @@ footer {
   }
   .team-card {
     width: 100%;
+  }
+  .section .price-grid {
+    gap: 20px;
+  }
+
+  .section .price-grid .price-card {
+    width: 100%;
+  }
+
+  .section .price-grid .price-card:hover {
+    transform: none;
+  }
+
+  .section .price-grid .price-amount {
+    font-size: 24px;
   }
 }
 
